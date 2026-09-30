@@ -6,7 +6,7 @@ CREATE TABLE Sailors (
   6  );
 
 Table created.
-![output](s1.png)
+![output](S1.png)
 
 SQL>
 SQL> CREATE TABLE Boats (
