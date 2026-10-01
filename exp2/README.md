@@ -7,6 +7,7 @@ CREATE TABLE Sailors (
 
 Table created.
 
+
 SQL>
 SQL> CREATE TABLE Boats (
   2      bid NUMBER PRIMARY KEY,
@@ -27,6 +28,8 @@ SQL> CREATE TABLE Reserves (
   8  );
 
 Table created.
+
+![output](S1.png)
 
 SQL> -- Insert into Sailors
 SQL> INSERT INTO Sailors VALUES (22, 'Dustin', 7, 45.0);
@@ -69,6 +72,8 @@ SQL> INSERT INTO Sailors VALUES (95, 'Bob', 3, 63.5);
 
 1 row created.
 
+![output](S2.png)
+
 SQL>
 SQL> -- Insert into Boats
 SQL> INSERT INTO Boats VALUES (101, 'Interlake', 'blue');
@@ -86,6 +91,7 @@ SQL> INSERT INTO Boats VALUES (103, 'Clipper', 'green');
 SQL> INSERT INTO Boats VALUES (104, 'Marine', 'red');
 
 1 row created.
+![output](S3.png)
 
 SQL>
 SQL> -- Insert into Reserves
@@ -133,6 +139,7 @@ SQL>
 SQL> COMMIT;
 
 Commit complete.
+![output](S4.png)
  
 -- 1. Find the names and ages of all sailors.
 SELECT sname, age 
@@ -371,8 +378,12 @@ HAVING AVG(age) = (
     FROM Sailors 
     GROUP BY rating
 );
-
-
+![output](S5.png)
+![output](S6.png)
+![output](S7.png)
+![output](S8.png)
+![output](S9.png)
+![output](S10.png)
 
 
 
